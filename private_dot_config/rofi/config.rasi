@@ -8,4 +8,4 @@ configuration{
 	sidebar-mode: true;
 }
 
-@theme "catppuccin-default"
+@theme "~/.config/rofi/themes/catppuccin-mocha.rasi"
