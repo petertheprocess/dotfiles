@@ -1,0 +1,16 @@
+theme = "catppuccin_mocha"
+
+[editor]
+line-number = "relative"
+
+[editor.cursor-shape]
+insert = "bar" 
+
+[editor.soft-wrap]
+enable = true
+
+[keys.insert]
+j = { k= "normal_mode" }
+
+[keys.normal.space]
+W = ["select_all", ":pipe-to sudo tee %{buffer_name}", ":echo sudo saved to this file", ":redraw"]
